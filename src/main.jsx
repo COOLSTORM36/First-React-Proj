@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 const root = createRoot(document.getElementById('root'))
 
-function mytitle() {
+function Mytitle() {
   return (
     <div>
       <img src="src\assets\react.svg" width={40} />
@@ -15,7 +15,7 @@ function mytitle() {
   )
 }
 
-function mylist() {
+function Mylist() {
   return (
     <ul>
       <li>1</li>
@@ -26,8 +26,8 @@ function mylist() {
 }
 
 root.render(
-  <div>
-    {mytitle()}
-    {mylist()}
-  </div>
+  <main>
+    <Mytitle />
+    <Mylist />
+  </main>
 )
