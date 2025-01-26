@@ -6,33 +6,28 @@ import App from './App.jsx'
 
 const root = createRoot(document.getElementById('root'))
 
-function MyAwesomeNavbar() {
+function mytitle() {
   return (
-    // <nav className='navbar navbar-expand-sm navbar-dark bg-dark' aria-label='Main navigation'>
-    //   <div className='container-fluid'>
     <div>
-          <h1>Home</h1>
-          <h2>About</h2>
-          <h2>Contact</h2>
+      <img src="src\assets\react.svg" width={40} />
+      <h1>Fun fact about react</h1>
     </div>
-    // </nav>
   )
 }
 
-function MainComponent() {
-  return <h1>My Awesome App</h1>
+function mylist() {
+  return (
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  )
 }
 
 root.render(
   <div>
-    <MyAwesomeNavbar />
-    <MainComponent />
-    <h1>Hello World</h1>
+    {mytitle()}
+    {mylist()}
   </div>
 )
-
-// .render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
-// )
