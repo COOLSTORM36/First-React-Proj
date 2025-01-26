@@ -5,8 +5,27 @@ import './index.css'
 import App from './App.jsx'
 
 const root = createRoot(document.getElementById('root'))
-const reactElement = createElement('h1', null, 'Hello, world!')
+
+function MyAwesomeNavbar() {
+  return (
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  )
+}
 
 root.render(
-  reactElement
+  <div>
+    <MyAwesomeNavbar />
+  </div>
 )
+
+// .render(
+//   <StrictMode>
+//     <App />
+//   </StrictMode>,
+// )
