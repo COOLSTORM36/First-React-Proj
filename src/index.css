@@ -71,6 +71,19 @@ img {
   display: block; /* Ensure the image is not affected by inline styles */
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1rem;
 }
