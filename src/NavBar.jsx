@@ -1,4 +1,4 @@
-export default function Header() {
+export default function NavBar() {
     return (
       <header className='header'>
         <img src="src/assets/react.svg" className="nav-logo" />

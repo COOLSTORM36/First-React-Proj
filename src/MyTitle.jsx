@@ -1,9 +1,9 @@
-import Header from './Header'
+import NavBar from './NavBar'
 
 export default function MyTitle() {
     return (
       <div>
-        <Header />
+        <NavBar />
         <h1>Fun fac about react</h1>
       </div>
     )
