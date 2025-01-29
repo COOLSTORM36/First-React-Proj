@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: Inter;
+  color: white;
 }
 
 h1 {
@@ -90,4 +92,39 @@ img {
 
 .nav-logo {
   width: 55px
+}
+
+header {
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  height: 100%;
+}
+
+nav > img {
+  width: 55px;
+}
+
+nav > span {
+  font-size: 1.5rem;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+main {
+  padding: 60px 30px;
+  text-align: left;
+}
+
+.facts-list {
+  margin-top: 30px;
+}
+
+.facts-list > li {
+  margin-block: 10px;
 }
